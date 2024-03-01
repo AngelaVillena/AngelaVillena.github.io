@@ -6,10 +6,9 @@ function minCharacters(x, y) {
     }
 }
 
+//checks if the string has a number
 function oneNumber(x, y) {
-    // if (x.match(/[0-9]/) && y.match(/[0-9]/)) {
-    //     return true;
-    // }
+
     let temp1 = false;
     let temp2 = false;
     for (let a = 0; a < x.length; a++) {
@@ -32,11 +31,13 @@ function upperCase(x, y) {
     }
 }
 
+//checks if 
 function lowerCase(x, y) {
     if (x !== x.toLowerCase() && y !== y.toLowerCase()) {
         return true;
     }
 }
+
 
 function validatePassword(x, y) {
     // triple equals check also if they are of the same type
@@ -55,6 +56,7 @@ function reversingPassword(x, y) {
     return temp;
 }
 
+//stores password in an object (key:value)
 function storePassword(x, y, z) {
     let newPassword = y;
     if (validatePassword(y, z) == true) {
