@@ -25,13 +25,14 @@ function oneNumber(x, y) {
     }
 }
 
+//checks if the string has a upper case
 function upperCase(x, y) {
     if (x !== x.toUpperCase() && y !== y.toUpperCase()) {
         return true;
     }
 }
 
-//checks if 
+//checks if the string has a lower case
 function lowerCase(x, y) {
     if (x !== x.toLowerCase() && y !== y.toLowerCase()) {
         return true;
