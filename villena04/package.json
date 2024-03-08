@@ -1,0 +1,19 @@
+{
+  "name": "villena04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "lower-case": "^3.0.0",
+    "to-lower-case": "^1.0.1",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  }
+}
