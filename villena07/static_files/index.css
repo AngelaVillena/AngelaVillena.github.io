@@ -1,0 +1,65 @@
+.ad-section {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #c9c9c9;
+  padding: 30px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+body {
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #dfdfdf;
+}
+
+form {
+  margin-left: 15px;
+}
+
+#title {
+  max-width: 800px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+
+  margin-left: 20px;
+  color: rgb(117, 115, 115);
+}
+
+label {
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(49, 49, 49);
+}
+
+input {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  height: 27px;
+  width: 180px;
+}
+
+#submit {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-left: 60px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  border-width: 2px;
+}
+
+#submit:hover {
+  box-shadow: 0 5px 5px 0 rgba(44, 44, 44, 0.24),
+    0 5px 20px 0 rgba(86, 85, 85, 0.19);
+}
