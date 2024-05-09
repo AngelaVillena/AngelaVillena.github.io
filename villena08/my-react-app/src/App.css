@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(244, 234, 216);
+}
+.flex-container {
+  display: flex;
+
+  background-color: rgb(244, 234, 216);
+  justify-content: space-between;
+}
+
+.appliancesProducts {
+  margin-top: 40px;
+  padding: 5px;
+  background-color: #beadad;
+  display: flex;
+  flex-direction: row;
+}
+
+.products {
+  display: flex;
+}
+.applianceImage {
+  padding: 20px;
+}
+
+.applianceTile {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #dec3c3;
+}
+
+.productName {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.addToCart {
+  border: none;
+  height: 35px;
+  padding: 5px;
+  margin-top: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.categories {
+  border: none;
+  background-color: initial;
+  color: #000000;
+  cursor: pointer;
+
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+
+  width: 100%;
+}
+.categoriesParent {
+  display: flex;
+  align-content: end;
+}
+
+.categories:hover,
+.categories:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #95055e;
+}
