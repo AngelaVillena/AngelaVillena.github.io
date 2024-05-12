@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(244, 234, 216);
+}
+
+/* navigation bar  */
+.navigationBar {
+  flex: 0 0 auto;
+  display: flex;
+  background-color: rgb(244, 234, 216);
+  justify-content: space-between;
+}
+
+.allProducts {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 40px;
+  padding: 5px;
+  background-color: rgb(244, 234, 216);
+
+  flex-direction: row;
+}
+
+.products {
+  flex: 0.9;
+  display: flex;
+}
+.content {
+  flex: 1 1 auto;
+  display: flex;
+}
+.applianceImage {
+  align-self: center;
+  padding: 20px;
+}
+
+.applianceTile {
+  width: 270px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ded3d3;
+}
+
+.productName {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.addToCart {
+  height: 35px;
+  padding: 5px;
+  margin-top: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.categories {
+  border: none;
+  background-color: initial;
+  color: #000000;
+  cursor: pointer;
+
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+
+  width: 100%;
+}
+.categoriesParent {
+  display: flex;
+  align-content: end;
+}
+
+.categories:hover,
+.categories:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #95055e;
+}
+
+.cart-items {
+  align-content: end;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: #deb5b5;
+}
+
+.item-name {
+  padding: 9px 20px 8px;
+}
+
+.qty {
+  padding: 9px 20px 8px;
+}
+
+.deleteButton {
+  display: flex;
+  align-content: end;
+}
